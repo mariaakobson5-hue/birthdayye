@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6eee1">
+  <title>Тёплое осеннее поздравление</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="leaves" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="card">
+      <span class="corner-leaf one" aria-hidden="true">❧</span>
+      <span class="corner-leaf two" aria-hidden="true">❧</span>
+
+      <div class="topline">С теплом в этот особенный день</div>
+
+      <div class="layout">
+        <div class="photo-wrap">
+          <!-- Положи фотографию рядом с index.html и назови photo.jpeg -->
+          <img src="photo.jpeg" alt="Осеннее фото на фоне берёз">
+        </div>
+
+        <div class="message">
+          <div class="sprig" aria-hidden="true">✳ ❧ ✳</div>
+          <h1>С днём<br>рождения!</h1>
+          <div class="rule"></div>
+          <p class="wish">
+            Пусть в жизни будет больше светлых дней,
+            душевного тепла и поводов улыбаться.
+            Крепкого здоровья, спокойствия на сердце,
+            приятных встреч и маленьких радостей,
+            из которых складывается настоящее счастье.
+          </p>
+          <p class="signature">С любовью ♡</p>
+        </div>
+      </div>
+
+      <div class="button-row">
+        <button id="surprise" type="button" aria-expanded="false">
+          Открыть ещё одно пожелание ♡
+        </button>
+      </div>
+
+      <div id="extra" class="hidden-note" aria-live="polite">
+        Пусть осень приносит только золотые дни, уютные вечера,
+        добрые новости и как можно больше поводов для улыбки. 🍂
+      </div>
+
+      <div class="footer">с любовью и самыми тёплыми мыслями</div>
+    </section>
+  </main>
+</body>
+</html>
